@@ -1,0 +1,129 @@
+/*
+	Rocket Internet by TEMPLATE STOCK
+    templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Typography CSS */
+body
+{
+    font-family: 'Lato', sans-serif;
+    color: #41484b;
+}
+
+
+/* Header */
+#homeFullScreen {
+    width: 80%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: top center;
+}
+
+#homeFullScreen {
+    background-image: url('../images/header.png');
+    overflow: hidden;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#homeFullScreen {
+    display: table-cell;
+    vertical-align:auto;
+    text-align:justify;
+    margin: auto;
+    padding-left: 10cm;
+}
+
+.header-text h1
+{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-text .vertical-line
+{
+    height: 2px;
+    background-color: #fff;
+    width: 150px;
+    margin: 0 auto;
+
+}
+
+.header-text p
+{
+    font-size: 26px;
+    color: #fff;
+}
+
+
+
+
+/* Extra Small devices  */
+@media (max-width: 480px) {
+	
+}
+
+/* Extra Small devices  */
+@media (max-width: 767px) {
+    .header-text h1 {
+        font-size: 45px;
+    }
+
+    .header-text .vertical-line {        
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .header-text h1 {
+        font-size: 45px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Typography CSS */
+body
+{
+    font-family: 'Lato', sans-serif;
+    color: #41484b;
+}
+
+
+
+/* Heder */
+#homeFullScreen {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: top center;
+}
+
+#homeFullScreen {
+    background-image: url('../images/header.png');
+    overflow: hidden;
+}
+
+#homeFullScreen {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
